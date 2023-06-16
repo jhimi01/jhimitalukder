@@ -1,0 +1,69 @@
+import { AiFillHome, AiFillPhone } from "react-icons/ai";
+import { FaTools, FaUserAlt } from "react-icons/fa";
+import { HiDocumentDuplicate } from "react-icons/hi";
+import { NavLink } from "react-router-dom";
+// import { BiSolidContact } from "react-icons/bi";
+
+const Sidebar = () => {
+  return (
+    <div className="text-2xl absolute top-36 left-10">
+      <div className=" p-2">
+        <NavLink  to="/home" className={( isActive ) => isActive? "text-indigo-500 shadow-lg": " "
+          }
+        >
+          <AiFillHome className="cursor-pointer" />
+        </NavLink>
+           
+      </div>
+      <div className=" p-2">
+        <NavLink
+          to="/about"
+          className={({ isActive }) =>
+            isActive
+              ? "text-indigo-500 shadow-lg shadow-indigo-500/50"
+              : " "
+          }
+        >
+          <FaUserAlt className="cursor-pointer" />
+        </NavLink>
+      </div>
+      <div className=" p-2">
+        <NavLink
+          to="/skill"
+          className={({ isActive }) =>
+            isActive
+              ? "text-indigo-500 shadow-lg shadow-indigo-500/50"
+              : ""
+          }
+        >
+         <FaTools className="cursor-pointer" />
+        </NavLink>
+      </div>
+      <div className=" p-2">
+        <NavLink
+          to="/project"
+          className={({ isActive }) =>
+            isActive
+              ? "text-indigo-500 shadow-lg shadow-indigo-500/50"
+              : ""
+          }
+        >
+         <HiDocumentDuplicate className="cursor-pointer " />
+        </NavLink>
+      </div>
+      <div className=" p-2">
+      <NavLink
+  to="/contact"
+  className={({ isActive }) =>
+    isActive ? "text-indigo-500 shadow-lg shadow-indigo-500/50" : ""
+  }
+>
+  <AiFillPhone className="cursor-pointer" />
+</NavLink>
+
+      </div>
+    </div>
+  );
+};
+
+export default Sidebar;
