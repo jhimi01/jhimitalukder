@@ -1,5 +1,6 @@
 import "./App.css";
 import Banner from "./component/Banner/Banner";
+import Footer from "./component/Footer/Footer";
 import Icons from "./component/Icons/Icons";
 import Navigation from "./component/Navigation/Navigation";
 // import Slider from "./component/Slider";
@@ -7,14 +8,17 @@ import Navigation from "./component/Navigation/Navigation";
 
 function App() {
   return (
-    <div className="w-full md:w-5/6 mx-auto">
+    <>
+      <div className="w-full md:w-5/6 mx-auto">
 
-      <Navigation />
-  <div className="absolute right-20 bottom-20">
+<Navigation />
+<div className="absolute right-20 bottom-20">
 <Icons></Icons>
-  </div>
-  <Banner></Banner>
-    </div>
+</div>
+<Banner></Banner>
+</div>
+<Footer></Footer>
+    </>
   );
 }
 
