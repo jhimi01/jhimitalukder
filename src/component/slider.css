@@ -1,0 +1,21 @@
+.sliderContentMain 
+  {
+    margin-top: 30px !important;
+    height: 600px;
+    width: 900px;
+    margin: auto; }
+
+    .awssld__content{
+      background: black !important;
+    }
+
+    .awssld__bullets{
+      bottom: -20px;
+    }
+
+    .awssld__bullets button {
+      text-indent: 0;
+      width: 50px;
+      height: 52px;
+      border-radius: 0;
+    }

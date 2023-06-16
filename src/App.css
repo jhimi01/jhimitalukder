@@ -1,0 +1,38 @@
+/* Default styles */
+body{
+  --main-heading: #5f99be;
+  --para-clr: #f0e6e6;
+  --btn-bg-clr: #5f99be;
+  --bg-text-clr:#f0e6e6;
+  --bg-blr: #111b20;
+}
+
+
+/* Dark theme styles */
+.dark-theme {
+  --main-heading: #5f99be;
+  --para-clr: #333;
+  --btn-bg-clr: #111b20;
+  --bg-text-clr: #f0e6e6;
+  --bg-blr:#f0e6e6;
+}
+
+
+/* Apply the variables */
+body {
+  color: var(--para-clr);
+  background-color: var(--bg-blr);
+}
+
+h1 {
+  color: var(--main-heading);
+}
+
+button {
+  background-color: var(--btn-bg-clr);
+  color: var(--bg-text-clr);
+}
+
+p{
+  color: var(--para-clr);
+}
