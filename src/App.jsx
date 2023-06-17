@@ -5,12 +5,12 @@ import Icons from "./component/Icons/Icons";
 import Navigation from "./component/Navigation/Navigation";
 import Sidebar from "./component/Sidebar/Sidebar";
 // import Slider from "./component/Slider";
-// import ParticleBackground from "./component/ParticleBackground";
+import bggradient from "./assets/bg.png";
 
 function App() {
   return (
     <>
-      <div className="w-full  mx-auto">
+      <div className="w-full mx-auto h-full">
 
 <Navigation />
 <div className="absolute right-20 bottom-20">
@@ -25,6 +25,7 @@ function App() {
 
 </div>
 <Footer></Footer>
+<img className="absolute -z-20 bottom-20 opacity-30 -left-20" src={bggradient} alt="" />
     </>
   );
 }

@@ -7,6 +7,10 @@ const About = () => {
   return (
     <div className="md:flex items-center justify-between mx-auto gap-5">
       <div
+       data-aos="fade-right"
+     data-aos-offset="100"
+     data-aos-easing="ease-in-sine"
+     data-aos-duration="900"
         className="w-2/3 h-full flex flex-col items-center"
         style={{ borderRight: "1px dashed #333" }}
       >
@@ -50,6 +54,10 @@ const About = () => {
         </div>
       </div>
       <div
+       data-aos="fade-left"
+     data-aos-offset="100"
+     data-aos-easing="ease-in-sine"
+     data-aos-duration="900"
         className="w-full p-4 text-start"
         style={{ borderBottom: "1px dashed #333" }}
       >
@@ -68,7 +76,7 @@ const About = () => {
             knowledge.
           </p>
         </div>
-        <div>
+        <div >
           <h3
             className="text-3xl font-semibold pb-3"
             style={{ borderBottom: "1px dashed #333" }}

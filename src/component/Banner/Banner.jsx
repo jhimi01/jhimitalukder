@@ -4,14 +4,23 @@ import { TypeAnimation } from "react-type-animation";
 const Banner = () => {
   return (
     <div className="md:flex items-center justify-between mt-10">
-      <div className="w-full md:w-[30%] h-full">
+      <div className="w-full md:w-[50%] h-full" 
+      data-aos="fade-right"
+    //  data-aos-offset="300"
+     data-aos-easing="linear"
+     data-aos-duration="700"
+     >
         <img
-          className="w-full"
-          src="https://i.ibb.co/W0qVBqc/pexels-roman-odintsov-8018922.jpg"
-          alt=""
+          className="w-full h-[400px] object-cover bg-indigo-300 shadow-xl shadow-indigo-300/50 hover:grayscale cursor-pointer"
+          src="https://i.ibb.co/crQnZhh/pexels-mohamed-abdelghaffar-1698730.jpg"
         />
       </div>
-      <div className="text-right font-thin">
+      <div className="text-right w-full font-thin"  
+      data-aos="fade-left"
+    //  data-aos-offset="300"
+     data-aos-easing="linear"
+     data-aos-duration="700"
+     >
         <p
           className="text-medium flex items-center justify-end text-indigo-500"
           style={{ letterSpacing: "2px" }}
