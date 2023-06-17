@@ -16,7 +16,7 @@ const About = () => {
      data-aos-offset="100"
      data-aos-easing="ease-in-sine"
      data-aos-duration="900"
-        className="w-2/3 h-full flex flex-col items-center"
+        className="md:w-2/3 h-full flex flex-col items-center"
         style={{ borderRight: "1px dashed #333" }}
       >
       

@@ -28,14 +28,14 @@ const Banner = () => {
           src="https://i.ibb.co/crQnZhh/pexels-mohamed-abdelghaffar-1698730.jpg"
         /> */}
       </div>
-      <div className="text-right w-full font-thin"  
+      <div className="md:text-right text-center w-full mx-auto font-thin"  
       data-aos="fade-left"
     //  data-aos-offset="300"
      data-aos-easing="linear"
      data-aos-duration="700"
      >
         <p
-          className="text-medium flex items-center justify-end text-indigo-500"
+          className="text-medium flex items-center md:justify-end  justify-center md:mt-0 mt-3 text-indigo-500"
           style={{ letterSpacing: "2px" }}
         >
           Tangail, Bangladesh <CiLocationOn className="text-xl font-bold" />

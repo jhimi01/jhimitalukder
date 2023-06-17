@@ -13,7 +13,7 @@ const Skill = () => {
                 <h3 className="text-3xl text-center mb-5">My <span className="text-indigo-400">Skill</span></h3>
 
            <div className="md:flex items-center justify-between gap-5">
-           <div className="w-3/4"  data-aos="fade-right"
+           <div className="md:w-3/4 w-full mx-auto p-2"  data-aos="fade-right"
      data-aos-offset="100"
      data-aos-easing="ease-in-sine"
      data-aos-duration="900">

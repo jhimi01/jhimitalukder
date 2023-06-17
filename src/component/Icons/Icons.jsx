@@ -4,7 +4,7 @@ import { RiFacebookCircleFill } from "react-icons/ri";
 
 const Icons = () => {
     return (
-        <div>
+        <div className="md:block hidden">
            <a href="https://www.facebook.com/profile.php?id=100070252309405" target="_blank"> <RiFacebookCircleFill className="text-4xl hover:text-indigo-400"/> </a>
             <a href="#"><AiFillInstagram className="text-4xl hover:text-indigo-400 my-4"/></a>
             <a href="#">

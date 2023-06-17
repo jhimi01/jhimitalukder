@@ -41,7 +41,9 @@ button {
 p{
   color: var(--para-clr);
 }
-
+label{
+  color: var(--para-clr);
+}
 ::-moz-selection { /* Code for Firefox */
   color: var(--bg-blr);
   background: #a5a1f5;
