@@ -2,6 +2,8 @@ import { FiArrowUpRight } from "react-icons/fi";
 import { CiLocationOn } from "react-icons/ci";
 import { TypeAnimation } from "react-type-animation";
 import { Helmet } from "react-helmet";
+import LazyLoad from "react-lazy-load";
+import './Banner.css'
 const Banner = () => {
   return (
     <div className="md:flex items-center justify-between mt-10">
@@ -15,11 +17,16 @@ const Banner = () => {
      data-aos-easing="linear"
      data-aos-duration="700"
      >
-     
-        <img
+      <LazyLoad effect="blur">
+      <img
           className="w-full h-[400px] object-cover bg-indigo-300 shadow-xl shadow-indigo-300/50 hover:grayscale cursor-pointer"
           src="https://i.ibb.co/crQnZhh/pexels-mohamed-abdelghaffar-1698730.jpg"
         />
+        </LazyLoad>
+        {/* <img
+          className="w-full h-[400px] object-cover bg-indigo-300 shadow-xl shadow-indigo-300/50 hover:grayscale cursor-pointer"
+          src="https://i.ibb.co/crQnZhh/pexels-mohamed-abdelghaffar-1698730.jpg"
+        /> */}
       </div>
       <div className="text-right w-full font-thin"  
       data-aos="fade-left"

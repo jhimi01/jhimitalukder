@@ -2,6 +2,7 @@ import { Tab, TabList, TabPanel, Tabs } from "react-tabs";
 import "react-tabs/style/react-tabs.css";
 import "./Ptoject.css";
 import { Helmet } from "react-helmet";
+import LazyLoad from "react-lazy-load";
 
 const Projects = () => {
   return (
@@ -22,11 +23,13 @@ const Projects = () => {
         <TabPanel>
           <div className="flex items-center justify-center flex-wrap mt-5 gap-4">
             <div className="bg-white shadow-lg rounded-sm p-4">
-              <img
+            <LazyLoad effect="blur">
+            <img
                 className="w-20 h-20"
                 src="https://i.ibb.co/KrZqM0p/logo2.png"
                 alt="logo"
               />
+        </LazyLoad>
               <div className="mt-4">
                 <h2 className="equal-word truncate w-[400px] text-gray-800">
                   github:{" "}
@@ -50,11 +53,14 @@ const Projects = () => {
             </div>
 
             <div className="bg-white shadow-lg rounded-sm p-4">
+            <LazyLoad effect="blur">
             <img
                 className="w-20 h-20 rounded-full object-cover"
                 src="https://i.ibb.co/hZZszwL/pexels-irina-iriser-1233415.jpg"
                 alt="logo"
               />
+        </LazyLoad>
+            
               <div className="mt-4">
               <h2 className="equal-word truncate w-[400px] text-gray-800">
                   github:{" "}
@@ -83,11 +89,14 @@ const Projects = () => {
         <TabPanel>
           <div className="flex items-center justify-center flex-wrap gap-5 mt-5">
           <div className="bg-white shadow-lg rounded-sm p-4">
+          <LazyLoad effect="blur">
           <img
                 className="w-20 h-20 rounded-full object-cover"
                 src="https://i.ibb.co/vBzsfmB/pexels-christina-morillo-1181263.jpg"
                 alt="logo"
               />
+        </LazyLoad>
+         
               <div className="mt-4">
               <h2 className="equal-word truncate w-[400px] text-gray-800">
                   github:{" "}
@@ -111,11 +120,14 @@ const Projects = () => {
             </div>
 
             <div className="bg-white shadow-lg rounded-sm p-4">
+            <LazyLoad effect="blur">
             <img
                 className="w-20 h-20 rounded-full object-cover"
                 src="https://i.ibb.co/kM49CpH/pexels-lukas-317356.jpg"
                 alt="logo"
               />
+        </LazyLoad>
+           
               <div className="mt-4">
               <h2 className="equal-word truncate w-[400px] text-gray-800">
                   github:{" "}
@@ -145,11 +157,14 @@ const Projects = () => {
 
 
             <div className="bg-white shadow-lg rounded-sm p-4">
+            <LazyLoad effect="blur">
             <img
                 className="w-20 h-20 rounded-full object-cover"
                 src="https://i.ibb.co/0JszrFv/pexels-pavel-danilyuk-8423051.jpg"
                 alt="logo"
               />
+        </LazyLoad>
+            
               <div className="mt-4">
               <h2 className="equal-word truncate w-[400px] text-gray-800">
                   github:{" "}
@@ -180,11 +195,14 @@ const Projects = () => {
 
 
           <div className="bg-white shadow-lg rounded-sm p-4">
+          <LazyLoad effect="blur">
           <img
                 className="w-20 h-20 rounded-full object-cover"
                 src="https://i.ibb.co/LRRk27F/pexels-elle-hughes-2696064.jpg"
                 alt="logo"
               />
+        </LazyLoad>
+         
               <div className="mt-4">
               <h2 className="equal-word truncate w-[400px] text-gray-800">
                   github-client:{" "}
@@ -271,11 +289,14 @@ const Projects = () => {
 
 
           <div className="bg-white shadow-lg rounded-sm p-4">
+          <LazyLoad effect="blur">
           <img
                 className="w-20 h-20 rounded-full object-cover"
                 src="https://i.ibb.co/YZHLVkB/pexels-natalie-bond-3759660-1.jpg"
                 alt="logo"
               />
+        </LazyLoad>
+         
               <div className="mt-4">
               <h2 className="equal-word truncate w-[400px] text-gray-800">
                   github-client:{" "}
@@ -313,11 +334,14 @@ const Projects = () => {
 
 
             <div className="bg-white shadow-lg rounded-sm p-4">
+            <LazyLoad effect="blur">
             <img
                 className="w-20 h-20 rounded-full object-cover"
                 src="https://i.ibb.co/PcJw88t/logo-30546d5e.png"
                 alt="logo"
               />
+        </LazyLoad>
+           
               <div className="mt-4">
               <h2 className="equal-word truncate w-[400px] text-gray-800">
                   github-client:{" "}
