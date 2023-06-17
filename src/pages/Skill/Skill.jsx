@@ -1,9 +1,15 @@
 // import ProgressBar from "@ramonak/react-progress-bar";
 
+import { Helmet } from "react-helmet";
+
 
 const Skill = () => {
     return (
         <div>
+         <Helmet>
+            <title>Skill | Jhimi</title>
+            <meta name="description" content="Nested component" />
+        </Helmet>
                 <h3 className="text-3xl text-center mb-5">My <span className="text-indigo-400">Skill</span></h3>
 
            <div className="md:flex items-center justify-between gap-5">

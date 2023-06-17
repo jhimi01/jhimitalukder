@@ -1,15 +1,21 @@
 import { FiArrowUpRight } from "react-icons/fi";
 import { CiLocationOn } from "react-icons/ci";
 import { TypeAnimation } from "react-type-animation";
+import { Helmet } from "react-helmet";
 const Banner = () => {
   return (
     <div className="md:flex items-center justify-between mt-10">
+     <Helmet>
+            <title>Home | Jhimi</title>
+            <meta name="description" content="Nested component" />
+        </Helmet>
       <div className="w-full md:w-[50%] h-full" 
       data-aos="fade-right"
     //  data-aos-offset="300"
      data-aos-easing="linear"
      data-aos-duration="700"
      >
+     
         <img
           className="w-full h-[400px] object-cover bg-indigo-300 shadow-xl shadow-indigo-300/50 hover:grayscale cursor-pointer"
           src="https://i.ibb.co/crQnZhh/pexels-mohamed-abdelghaffar-1698730.jpg"

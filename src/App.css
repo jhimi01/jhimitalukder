@@ -19,6 +19,9 @@ body{
 
 }
 
+.cardBG{
+  background-color: var(--bg-blr);
+}
 
 /* Apply the variables */
 body {

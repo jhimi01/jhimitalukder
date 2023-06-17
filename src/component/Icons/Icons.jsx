@@ -10,7 +10,7 @@ const Icons = () => {
             <a href="#">
             <AiFillTwitterCircle className="text-4xl hover:text-indigo-400"/>
             </a>
-            <a href="#">
+            <a href="https://github.com/jhimi01" target="_blank">
             <AiOutlineGithub className="text-4xl hover:text-indigo-400 mt-4"/>
             </a>
            

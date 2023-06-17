@@ -1,0 +1,43 @@
+:root{
+    --bg-text-clr:#f0e6e6;
+}
+
+.cardBG {
+    /* background-color: var(--bg-text-clr); */
+  }
+  
+/* 
+  /* .cardMain{
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      width: 100%; 
+  }
+
+*/
+
+
+    /* 
+  .card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  } */
+
+  .card {
+    border: 1px solid #ccc;
+    /* border-radius: 4px; */
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+  
+  .card-content {
+    margin-left: 10px;
+  }
+  

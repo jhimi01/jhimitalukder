@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet";
 import { AiFillPhone } from "react-icons/ai";
 import { BsFillCalendar2HeartFill } from "react-icons/bs";
 import { FaUser } from "react-icons/fa";
@@ -6,6 +7,10 @@ import { GoLocation } from "react-icons/go";
 const About = () => {
   return (
     <div className="md:flex items-center justify-between mx-auto gap-5">
+     <Helmet>
+            <title>About | Jhimi</title>
+            <meta name="description" content="Nested component" />
+        </Helmet>
       <div
        data-aos="fade-right"
      data-aos-offset="100"
@@ -14,6 +19,7 @@ const About = () => {
         className="w-2/3 h-full flex flex-col items-center"
         style={{ borderRight: "1px dashed #333" }}
       >
+      
         <img
           className="w-[70px] mb-5 rounded-full h-[70px] object-cover"
           src="https://i.ibb.co/XC8YjLn/download.jpg"
