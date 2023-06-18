@@ -78,7 +78,7 @@ const Banner = () => {
         <button>
           <a
             href="https://www.linkedin.com/in/jhimi-talukder-801ab227b/"
-            className="text-xl flex items-center p-2 gap-1 font-semibold text-indigo-500 shadow-lg shadow-indigo-500/50"
+            className="text-xl flex items-center p-2 gap-1 font-semibold text-indigo-500 shadow-lg shadow-indigo-500/50 ml-2"
           >
             Resume <FiArrowUpRight />
           </a>
