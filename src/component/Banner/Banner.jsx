@@ -3,7 +3,9 @@ import { CiLocationOn } from "react-icons/ci";
 import { TypeAnimation } from "react-type-animation";
 import { Helmet } from "react-helmet";
 import LazyLoad from "react-lazy-load";
-import './Banner.css'
+import './Banner.css';
+import pic from '../../assets/IMG_20230617_232629-removebg-preview.png';
+// import pic from '../../assets/IMG_20230617_232629.jpg';
 const Banner = () => {
   return (
     <div className="md:flex items-center justify-between mt-10">
@@ -17,16 +19,18 @@ const Banner = () => {
      data-aos-easing="linear"
      data-aos-duration="700"
      >
+      {/* <LazyLoad effect="blur">
+      <img
+          className="w-full h-[400px] object-cover bg-indigo-300 shadow-xl shadow-indigo-300/50 hover:grayscale brightness-75 cursor-pointer"
+          src={pic}
+        />
+        </LazyLoad> */}
       <LazyLoad effect="blur">
       <img
           className="w-full h-[400px] object-cover bg-indigo-300 shadow-xl shadow-indigo-300/50 hover:grayscale cursor-pointer"
           src="https://i.ibb.co/crQnZhh/pexels-mohamed-abdelghaffar-1698730.jpg"
         />
         </LazyLoad>
-        {/* <img
-          className="w-full h-[400px] object-cover bg-indigo-300 shadow-xl shadow-indigo-300/50 hover:grayscale cursor-pointer"
-          src="https://i.ibb.co/crQnZhh/pexels-mohamed-abdelghaffar-1698730.jpg"
-        /> */}
       </div>
       <div className="md:text-right text-center w-full mx-auto font-thin"  
       data-aos="fade-left"
@@ -65,10 +69,18 @@ const Banner = () => {
         </p>
         <button>
           <a
-            href="#"
+            href="https://www.linkedin.com/in/jhimi-talukder-801ab227b/"
             className="text-xl flex items-center p-2 gap-1 font-semibold text-indigo-500 shadow-lg shadow-indigo-500/50"
           >
             LinkdIn <FiArrowUpRight />
+          </a>
+        </button>
+        <button>
+          <a
+            href="https://www.linkedin.com/in/jhimi-talukder-801ab227b/"
+            className="text-xl flex items-center p-2 gap-1 font-semibold text-indigo-500 shadow-lg shadow-indigo-500/50"
+          >
+            Resume <FiArrowUpRight />
           </a>
         </button>
         <div className="mt-3"></div>

@@ -3,11 +3,17 @@ import { FiArrowUpRight } from 'react-icons/fi';
 import Icons from '../../component/Icons/Icons';
 import { AiFillInstagram, AiFillTwitterCircle, AiOutlineGithub } from 'react-icons/ai';
 import { RiFacebookCircleFill } from 'react-icons/ri';
+import LazyLoad from 'react-lazy-load';
 
 const Contact = () => {
     return (
         <div className='md:flex items-center justify-center'>
-            <div className='w-full md:w-1/2 mx-auto'><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d232800.3544709276!2d89.56226545220073!3d24.259066981513932!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39fdfb44c7eeadc1%3A0x635d437a356cefa!2sTangail%20Sadar%20Upazila!5e0!3m2!1sen!2sbd!4v1686989048465!5m2!1sen!2sbd" width="100%" height="450" style={{border:0}} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe></div>
+            <div className='w-full md:w-1/2 mx-auto'>
+            <LazyLoad effect="blur">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d232800.3544709276!2d89.56226545220073!3d24.259066981513932!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39fdfb44c7eeadc1%3A0x635d437a356cefa!2sTangail%20Sadar%20Upazila!5e0!3m2!1sen!2sbd!4v1686989048465!5m2!1sen!2sbd" width="100%" height="450" style={{border:0}} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+        </LazyLoad>
+            
+            </div>
 
 
             <div className='md:hidden'>
