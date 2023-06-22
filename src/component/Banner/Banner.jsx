@@ -4,8 +4,8 @@ import { TypeAnimation } from "react-type-animation";
 import { Helmet } from "react-helmet";
 import LazyLoad from "react-lazy-load";
 import './Banner.css';
-import pic from '../../assets/IMG_20230617_232629-removebg-preview.png';
-// import pic from '../../assets/IMG_20230617_232629.jpg';
+import pic from '../../assets/my5.png';
+// import pic from '../../assets/my6.png';
 const Banner = () => {
   return (
     <div className="md:flex items-center justify-between mt-10">
@@ -13,24 +13,25 @@ const Banner = () => {
             <title>Home | Jhimi</title>
             <meta name="description" content="Nested component" />
         </Helmet>
-      <div className="w-full md:w-[50%] h-full" 
+      <div className="w-full md:w-[70%] h-full" 
       data-aos="fade-right"
     //  data-aos-offset="300"
      data-aos-easing="linear"
      data-aos-duration="700"
      >
-      {/* <LazyLoad effect="blur">
+      <LazyLoad effect="blur">
       <img
-          className="w-full h-[400px] object-cover bg-indigo-300 shadow-xl shadow-indigo-300/50 hover:grayscale brightness-75 cursor-pointer"
+          // className="w-full h-[400px] object-cover shadow-xl shadow-indigo-300/50 hover:grayscale brightness-100 cursor-pointer"
+          className="w-[100%] h-[400px] object-cover hover:grayscale"
           src={pic}
         />
-        </LazyLoad> */}
-      <LazyLoad effect="blur">
+        </LazyLoad>
+      {/* <LazyLoad effect="blur">
       <img
           className="w-full h-[400px] object-cover bg-indigo-300 shadow-xl shadow-indigo-300/50 hover:grayscale cursor-pointer"
           src="https://i.ibb.co/crQnZhh/pexels-mohamed-abdelghaffar-1698730.jpg"
         />
-        </LazyLoad>
+        </LazyLoad> */}
       </div>
       <div className="md:text-right text-center w-full mx-auto font-thin"  
       data-aos="fade-left"

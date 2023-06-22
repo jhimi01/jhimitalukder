@@ -13,7 +13,7 @@ const Navigation = () => {
                 Email <br />
                 <span className="underline text-indigo-500 text-sm">talukderjhimi@gmail.com</span>
             </h2>
-            <img className="rounded-full h-12 md:mx-3 w-12 mx-auto object-cover hidden md:block" src="https://i.ibb.co/crQnZhh/pexels-mohamed-abdelghaffar-1698730.jpg" alt="mypicture" />
+            <img className="rounded-full h-12 md:mx-3 w-12 mx-auto object-cover hidden md:block" src="https://i.ibb.co/XFc53X0/Untitled-design-9.png" alt="mypicture" />
                 <Toggle></Toggle>
             </div>
         </div>
