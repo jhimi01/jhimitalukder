@@ -49,7 +49,7 @@ const Skill = () => {
 
 <h3>Node JS</h3>
 <div className="bg-gray-300 rounded-full">
-      <div className="bg-indigo-400 rounded-full text-xs leading-none py-1 pl-2" style={{width: '20%'}}>20%</div>
+      <div className="bg-indigo-400 rounded-full text-xs leading-none py-1 pl-2" style={{width: '15%'}}>15%</div>
   </div>
 </div>
 
@@ -63,6 +63,13 @@ const Skill = () => {
   </div>
 </div>
 
+<div className="my-2">
+
+<h3>Mongodb</h3>
+<div className="bg-gray-300 rounded-full">
+      <div className="bg-indigo-400 rounded-full text-xs leading-none py-1 pl-2" style={{width: '20%'}}>20%</div>
+  </div>
+</div>
     
             </div>
 

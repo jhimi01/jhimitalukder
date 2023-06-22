@@ -68,7 +68,7 @@ const Banner = () => {
           />
         </p>
         <button>
-          <a
+          <a target="_blank"
             href="https://www.linkedin.com/in/jhimi-talukder-801ab227b/"
             className="text-xl flex items-center p-2 gap-1 font-semibold text-indigo-500 shadow-lg shadow-indigo-500/50"
           >
@@ -76,8 +76,8 @@ const Banner = () => {
           </a>
         </button>
         <button>
-          <a
-            href="https://www.linkedin.com/in/jhimi-talukder-801ab227b/"
+          <a target="_blank"
+            href="https://drive.google.com/file/d/1ylZQZuzV6dk1A2VBVbhrllIlVVICd2IO/view?usp=sharing"
             className="text-xl flex items-center p-2 gap-1 font-semibold text-indigo-500 shadow-lg shadow-indigo-500/50 ml-2"
           >
             Resume <FiArrowUpRight />
