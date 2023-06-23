@@ -1,6 +1,6 @@
 import { Helmet } from "react-helmet";
 import { AiFillPhone } from "react-icons/ai";
-import { BsFillCalendar2HeartFill } from "react-icons/bs";
+import { BsFillCalendar2HeartFill, BsLinkedin } from "react-icons/bs";
 import { FaUser } from "react-icons/fa";
 import { GoLocation } from "react-icons/go";
 
@@ -20,19 +20,20 @@ const About = () => {
         style={{ borderRight: "1px dashed #333" }}
       >
       
-        <img
+        {/* <img
           className="w-[70px] mb-5 rounded-full h-[70px] object-cover"
           src="https://i.ibb.co/XC8YjLn/download.jpg"
           alt=""
-        />
-        <h3 className="text-2xl font-bold mb-3">JHIMI TALUKDER</h3>
+        /> */}
+        {/* <img className="rounded-full h-20 md:mx-3 w-20 mx-auto object-cover hidden md:block" src="https://i.ibb.co/XFc53X0/Untitled-design-9.png" alt="mypicture" /> */}
+        <h3 className="text-2xl font-bold mb-3">UMMAY KULSUM JHIMI</h3>
         <h5 className="text-xl mb-3 text-gray-400">Joniour developer</h5>
         <div className="text-start mt-3">
           <div
             style={{ borderBottom: "1px dashed #333", padding: "7px 0" }}
           >
             <h4 className="gap-4 flex items-center text-lg font-thin">
-              <FaUser className="text-indigo-400" /> Jhimi Talukder
+              <FaUser className="text-indigo-400" /> Ummay Kulsum Jhimi
             </h4>
           </div>
           <div
@@ -54,8 +55,15 @@ const About = () => {
             style={{ borderBottom: "1px dashed #333", padding: "7px 0" }}
           >
             <h4 className="gap-4 flex items-center text-lg font-thin">
-              <AiFillPhone className="text-indigo-400" /> +8801754001888
+              <AiFillPhone className="text-indigo-400" /> +8801756420414
             </h4>
+          </div>
+          <div
+            style={{ borderBottom: "1px dashed #333", padding: "7px 0" }}
+          >
+            <a href="https://www.linkedin.com/in/jhimi-talukder-801ab227b" target="_blank" className="gap-4 underline flex items-center text-lg font-thin">
+              <BsLinkedin className="text-indigo-400" /> Jhimi Talukder
+            </a>
           </div>
         </div>
       </div>

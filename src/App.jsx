@@ -13,7 +13,7 @@ function App() {
       <div className="w-full mx-auto h-full">
 
 <Navigation />
-<div className="absolute right-20 bottom-20">
+<div className="absolute right-20 bottom-28">
 <Icons></Icons>
 </div>
 <div className="md:w-4/6 mx-auto mt-10">
