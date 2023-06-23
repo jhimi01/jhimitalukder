@@ -45,10 +45,10 @@ const Banner = () => {
         >
           Tangail, Bangladesh <CiLocationOn className="text-xl font-bold" />
         </p>
-        <h2 className="text-6xl  ">
+        <h2 className="text-5xl  ">
           Hello,
           <br />
-          {` I'm Jhimi Talukder`}
+          {` I'm Ummay Kulsum Jhimi`}
         </h2>
         <p className="ml-auto my-5 text-xl">
           <TypeAnimation
