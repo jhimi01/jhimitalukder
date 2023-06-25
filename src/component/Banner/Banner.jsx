@@ -55,11 +55,9 @@ const Banner = () => {
             sequence={[
               "I'm a passionate new developer",
               1000,
-              "I love building web applications",
+              "I love building meaningful web applications",
               1000,
               "I enjoy learning new technologies",
-              1000,
-              "I'm eager to contribute to meaningful projects",
               1000,
             ]}
             speed={{ type: "keyStrokeDelayInMs", value: 150 }}
