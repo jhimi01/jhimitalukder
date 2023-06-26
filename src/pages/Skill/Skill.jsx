@@ -77,7 +77,7 @@ const Skill = () => {
      data-aos-offset="100"
      data-aos-easing="ease-in-sine"
      data-aos-duration="900">
-                    <h3 className="text-lg font-thin">Introducing Jhimi Talukder, a skilled and ambitious developer with expertise in HTML (90%), CSS (90%), and JavaScript (80%). Passionate about creating visually stunning and user-friendly web experiences, I am dedicated to crafting clean and efficient code. While their proficiency in Node.js (20%) and Express.js (20%) is still growing, their enthusiasm and eagerness to learn are unmatched. Continuously staying up-to-date with industry trends, I thrives in collaborative environments, seeking to contribute to dynamic development projects. With a strong foundation in core web technologies, I am well-equipped to tackle challenges and bring innovative ideas to life, creating remarkable digital experiences.
+                    <h3 className="text-lg font-thin">Introducing Ummay Kulsum Jhimi, a skilled and ambitious developer with expertise in HTML (90%), CSS (90%), and JavaScript (80%). Passionate about creating visually stunning and user-friendly web experiences, I am dedicated to crafting clean and efficient code. While their proficiency in Node.js (20%) and Express.js (20%) is still growing, their enthusiasm and eagerness to learn are unmatched. Continuously staying up-to-date with industry trends, I thrives in collaborative environments, seeking to contribute to dynamic development projects. With a strong foundation in core web technologies, I am well-equipped to tackle challenges and bring innovative ideas to life, creating remarkable digital experiences.
 </h3>
                 </div>
            </div>

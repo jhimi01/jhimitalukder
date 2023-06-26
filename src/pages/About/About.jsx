@@ -20,12 +20,6 @@ const About = () => {
         style={{ borderRight: "1px dashed #333" }}
       >
       
-        {/* <img
-          className="w-[70px] mb-5 rounded-full h-[70px] object-cover"
-          src="https://i.ibb.co/XC8YjLn/download.jpg"
-          alt=""
-        /> */}
-        {/* <img className="rounded-full h-20 md:mx-3 w-20 mx-auto object-cover hidden md:block" src="https://i.ibb.co/XFc53X0/Untitled-design-9.png" alt="mypicture" /> */}
         <h3 className="text-2xl font-bold mb-3">UMMAY KULSUM JHIMI</h3>
         <h5 className="text-xl mb-3 text-gray-400">Joniour developer</h5>
         <div className="text-start mt-3">
@@ -84,10 +78,10 @@ const About = () => {
           </h3>
 
           <p>
-            My name is <span className="text-indigo-400">Jhimi Talukder</span>. I am a junior, and I am very
-            passionate and dedicated to my work. With 20 years experience as a
-            professional a graphic designer, I have acquired the skills and
-            knowledge.
+            My name is <span className="text-indigo-400">Ummay Kulsum Jhimi</span>. I am a Front-End Web developer, and I am very
+            passionate and dedicated to my work. I have been on an
+incredible learning journey in the field of web development since January 26, 2022, and I have
+recently completed a 6-month course dedicated to honing my skill in this domain.
           </p>
         </div>
         <div >
