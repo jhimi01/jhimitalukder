@@ -14,11 +14,12 @@ const Banner = () => {
     fetch(pdf).then(response => {
       response.blob().then(blob =>{
         const fileURL = window.URL.createObjectURL(blob);
+        const filename = pdf.split("/").pop();
         // Setting various property values
-        let alink = document.createElement('a');
-        alink.href = fileURL;
-        alink.download = pdf
-        alink.click();
+        let alink = document.createElement("a");
+      alink.href = fileURL;
+      alink.download = filename; // Set the filename for the downloaded file
+      alink.click();
       })
      
     })
