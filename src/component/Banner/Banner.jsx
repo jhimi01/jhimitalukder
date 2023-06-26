@@ -6,12 +6,22 @@ import { Helmet } from "react-helmet";
 import LazyLoad from "react-lazy-load";
 import './Banner.css';
 import pic from '../../assets/my5.png';
-// import pic from '../../assets/my6.png';
+import pdf from '../../assets/Resume of Jhimi.pdf';
 const Banner = () => {
 
 
   const hnadleDownload = ()=>{
-
+    fetch(pdf).then(response => {
+      response.blob().then(blob =>{
+        const fileURL = window.URL.createObjectURL(blob);
+        // Setting various property values
+        let alink = document.createElement('a');
+        alink.href = fileURL;
+        alink.download = pdf
+        alink.click();
+      })
+     
+    })
   }
 
 
