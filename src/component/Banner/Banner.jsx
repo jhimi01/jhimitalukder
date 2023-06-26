@@ -1,4 +1,5 @@
 import { FiArrowUpRight } from "react-icons/fi";
+import { BsDownload } from "react-icons/bs";
 import { CiLocationOn } from "react-icons/ci";
 import { TypeAnimation } from "react-type-animation";
 import { Helmet } from "react-helmet";
@@ -7,10 +8,18 @@ import './Banner.css';
 import pic from '../../assets/my5.png';
 // import pic from '../../assets/my6.png';
 const Banner = () => {
+
+
+  const hnadleDownload = ()=>{
+
+  }
+
+
+
   return (
     <div className="md:flex items-center justify-between mt-10">
      <Helmet>
-            <title>Home | Jhimi</title>
+            <title>Jhimi</title>
             <meta name="description" content="Nested component" />
         </Helmet>
       <div className="w-full md:w-[70%] h-full" 
@@ -45,10 +54,11 @@ const Banner = () => {
         >
           Tangail, Bangladesh <CiLocationOn className="text-xl font-bold" />
         </p>
-        <h2 className="text-5xl  ">
-          Hello,
+        <h2 className="text-5xl font-normal">
+          Hello, I'm 
           <br />
-          {` I'm Ummay Kulsum Jhimi`}
+          
+         <span className="text-indigo-300"> Ummay Kulsum Jhimi</span>
         </h2>
         <p className="ml-auto my-5 text-xl">
           <TypeAnimation
@@ -68,20 +78,20 @@ const Banner = () => {
         </p>
         <button>
           <a target="_blank"
-            href="https://www.linkedin.com/in/jhimi-talukder-801ab227b/"
-            className="text-xl flex items-center p-2 gap-1 font-semibold text-indigo-500 shadow-lg shadow-indigo-500/50"
-          >
-            LinkdIn <FiArrowUpRight />
-          </a>
-        </button>
-        <button>
-          <a target="_blank"
             href="https://drive.google.com/file/d/1ylZQZuzV6dk1A2VBVbhrllIlVVICd2IO/view?usp=sharing"
-            className="text-xl flex items-center p-2 gap-1 font-semibold text-indigo-500 shadow-lg shadow-indigo-500/50 ml-2"
+            className="text-xl flex items-center p-2 gap-1 font-semibold text-indigo-500 shadow-lg shadow-indigo-500/50"
           >
             Resume <FiArrowUpRight />
           </a>
         </button>
+        <button onClick={hnadleDownload}>
+          <p
+            className="text-xl flex items-center p-2 gap-2 font-semibold text-indigo-500 shadow-lg shadow-indigo-500/50  ml-3"
+          >
+           Download<BsDownload />
+          </p>
+        </button>
+    
         <div className="mt-3"></div>
       </div>
     </div>

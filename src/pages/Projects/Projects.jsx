@@ -25,24 +25,24 @@ const Projects = () => {
             <div className="bg-white shadow-lg rounded-sm p-4">
             <LazyLoad effect="blur">
             <img
-                className="w-20 h-20"
-                src="https://i.ibb.co/KrZqM0p/logo2.png"
+                className="w-full h-40 object-cover"
+                src="https://i.ibb.co/1Ms1bqz/Screenshot-482.png"
                 alt="logo"
               />
         </LazyLoad>
-              <div className="mt-4">
-                <h2 className="equal-word truncate w-[400px] text-gray-800">
-                  github:{" "}
-                  <a
+              <div className="mt-4 w-[200px]">
+                <h2 className="equal-word truncate  text-gray-800">
+                  github:
+                  <a target="_blank"
                     className="underline text-indigo-600 "
                     href="https://github.com/jhimi01/collageAssignment.github.io"
                   >
                     https://github.com/jhimi01/collageAssignment.github.io
                   </a>
                 </h2>
-                <h3 className="equal-word truncate w-[400px] text-gray-800">
-                  live link:{" "}
-                  <a
+                <h3 className="equal-word truncate  text-gray-800">
+                  live link:
+                  <a target="_blank"
                     className="underline text-indigo-600"
                     href="https://jhimi01.github.io/collageAssignment.github.io/"
                   >
@@ -55,25 +55,25 @@ const Projects = () => {
             <div className="bg-white shadow-lg rounded-sm p-4">
             <LazyLoad effect="blur">
             <img
-                className="w-20 h-20 rounded-full object-cover"
-                src="https://i.ibb.co/hZZszwL/pexels-irina-iriser-1233415.jpg"
+                className="w-full h-40 object-cover"
+                src="https://i.ibb.co/YBT1VrP/Screenshot-483.png"
                 alt="logo"
               />
         </LazyLoad>
             
-              <div className="mt-4">
-              <h2 className="equal-word truncate w-[400px] text-gray-800">
-                  github:{" "}
-                  <a
+              <div className="mt-4 w-[200px]">
+              <h2 className="equal-word truncate  text-gray-800">
+                  github:
+                  <a target="_blank"
                     className="underline text-indigo-600"
                     href="https://github.com/jhimi01/Blog.github.io"
                   >
                     https://github.com/jhimi01/Blog.github.io
                   </a>
                 </h2>
-                <h3 className="equal-word truncate w-[400px] text-gray-800">
-                  live link:{" "}
-                  <a
+                <h3 className="equal-word truncate  text-gray-800">
+                  live link:
+                  <a target="_blank"
                     className="underline text-indigo-600"
                     href="https://jhimi01.github.io/Blog.github.io/"
                   >
@@ -91,25 +91,25 @@ const Projects = () => {
           <div className="bg-white shadow-lg rounded-sm p-4">
           <LazyLoad effect="blur">
           <img
-                className="w-20 h-20 rounded-full object-cover"
-                src="https://i.ibb.co/vBzsfmB/pexels-christina-morillo-1181263.jpg"
+                className="w-full h-40 object-cover"
+                src="https://i.ibb.co/7jLnJWz/Screenshot-484.png"
                 alt="logo"
               />
         </LazyLoad>
          
-              <div className="mt-4">
-              <h2 className="equal-word truncate w-[400px] text-gray-800">
-                  github:{" "}
-                  <a
+              <div className="mt-4 w-[200px]">
+              <h2 className="equal-word truncate  text-gray-800">
+                  github:
+                  <a target="_blank"
                     className="underline text-indigo-600"
                     href="https://github.com/jhimi01/knowledge-cafe"
                   >
                     https://github.com/jhimi01/knowledge-cafe
                   </a>
                 </h2>
-                <h3 className="equal-word truncate w-[400px] text-gray-800">
-                  live link:{" "}
-                  <a
+                <h3 className="equal-word truncate  text-gray-800">
+                  live link:
+                  <a target="_blank"
                     className="underline text-indigo-600"
                     href="https://b7a8-logiclab-jhimi01.vercel.app/"
                   >
@@ -122,15 +122,15 @@ const Projects = () => {
             <div className="bg-white shadow-lg rounded-sm p-4">
             <LazyLoad effect="blur">
             <img
-                className="w-20 h-20 rounded-full object-cover"
-                src="https://i.ibb.co/kM49CpH/pexels-lukas-317356.jpg"
+                className="w-full h-40 object-cover"
+                src="https://i.ibb.co/rvD89X1/Screenshot-485.png"
                 alt="logo"
               />
         </LazyLoad>
            
-              <div className="mt-4">
-              <h2 className="equal-word truncate w-[400px] text-gray-800">
-                  github:{" "}
+              <div className="mt-4 w-[200px]">
+              <h2 className="equal-word truncate  text-gray-800">
+                  github:
                   <a
                     className="underline text-indigo-600"
                     target="_blank"
@@ -139,8 +139,8 @@ const Projects = () => {
                     https://github.com/jhimi01/React-Notes
                   </a>
                 </h2>
-                <h3 className="equal-word truncate w-[400px] text-gray-800">
-                  live link:{" "}
+                <h3 className="equal-word truncate  text-gray-800">
+                  live link:
                   <a
                     className="underline text-indigo-600"
                     target="_blank"
@@ -159,15 +159,15 @@ const Projects = () => {
             <div className="bg-white shadow-lg rounded-sm p-4">
             <LazyLoad effect="blur">
             <img
-                className="w-20 h-20 rounded-full object-cover"
-                src="https://i.ibb.co/0JszrFv/pexels-pavel-danilyuk-8423051.jpg"
+                className="w-full h-40 object-cover"
+                src="https://i.ibb.co/B2MZ4B5/Screenshot-486.png"
                 alt="logo"
               />
         </LazyLoad>
             
-              <div className="mt-4">
-              <h2 className="equal-word truncate w-[400px] text-gray-800">
-                  github:{" "}
+              <div className="mt-4 w-[200px]">
+              <h2 className="equal-word truncate  text-gray-800">
+                  github:
                   <a
                     className="underline text-indigo-600"
                     target="_blank"
@@ -176,8 +176,8 @@ const Projects = () => {
                     https://github.com/jhimi01/Knowledge-Store
                   </a>
                 </h2>
-                <h3 className="equal-word truncate w-[400px] text-gray-800">
-                  live link:{" "}
+                <h3 className="equal-word truncate  text-gray-800">
+                  live link:
                   <a
                     className="underline text-indigo-600"
                     target="_blank"
@@ -197,15 +197,15 @@ const Projects = () => {
           <div className="bg-white shadow-lg rounded-sm p-4">
           <LazyLoad effect="blur">
           <img
-                className="w-20 h-20 rounded-full object-cover"
-                src="https://i.ibb.co/LRRk27F/pexels-elle-hughes-2696064.jpg"
+                className="w-full h-40 object-cover"
+                src="https://i.ibb.co/G907TMx/Screenshot-487.png"
                 alt="logo"
               />
         </LazyLoad>
          
-              <div className="mt-4">
-              <h2 className="equal-word truncate w-[400px] text-gray-800">
-                  github-client:{" "}
+              <div className="mt-4 w-[200px]">
+              <h2 className="equal-word truncate  text-gray-800">
+                  github-client:
                   <a
                     className="underline text-indigo-600"
                     target="_blank"
@@ -215,8 +215,8 @@ const Projects = () => {
                   </a>
                 </h2>
 
-                <h2 className="equal-word truncate w-[400px] text-gray-800">
-                  github-server:{" "}
+                <h2 className="equal-word truncate  text-gray-800">
+                  github-server:
                   <a
                     className="underline text-indigo-600"
                     target="_blank"
@@ -226,8 +226,8 @@ const Projects = () => {
                   </a>
                 </h2>
 
-                <h3 className="equal-word truncate w-[400px] text-gray-800">
-                  live link:{" "}
+                <h3 className="equal-word truncate  text-gray-800">
+                  live link:
                   <a
                     className="underline text-indigo-600"
                     target="_blank"
@@ -239,48 +239,6 @@ const Projects = () => {
               </div>
             </div>
 
-
-            {/* <div className="p-4 card w-1/2">
-              <img
-                className="w-20 h-20 rounded-full object-cover"
-                src="https://i.ibb.co/LRRk27F/pexels-elle-hughes-2696064.jpg"
-                alt="logo"
-              />
-              <div>
-                <h2 className="equal-word truncate w-[400px] text-gray-800">
-                  github-client:{" "}
-                  <a
-                    className="underline text-indigo-600"
-                    target="_blank"
-                    href="https://github.com/jhimi01/wings-bakers-client"
-                  >
-                    https://github.com/jhimi01/wings-bakers-client
-                  </a>
-                </h2>
-
-                <h2 className="equal-word truncate w-[400px] text-gray-800">
-                  github-server:{" "}
-                  <a
-                    className="underline text-indigo-600"
-                    target="_blank"
-                    href="https://github.com/jhimi01/wings-bakers"
-                  >
-                    https://github.com/jhimi01/wings-bakers
-                  </a>
-                </h2>
-
-                <h3 className="equal-word truncate w-[400px] text-gray-800">
-                  live link:{" "}
-                  <a
-                    className="underline text-indigo-600"
-                    target="_blank"
-                    href="https://wings-bakers-assignment10.web.app"
-                  >
-                    https://wings-bakers-assignment10.web.app
-                  </a>
-                </h3>
-              </div>
-            </div> */}
           </div>
         </TabPanel>
         <TabPanel>
@@ -291,15 +249,15 @@ const Projects = () => {
           <div className="bg-white shadow-lg rounded-sm p-4">
           <LazyLoad effect="blur">
           <img
-                className="w-20 h-20 rounded-full object-cover"
-                src="https://i.ibb.co/YZHLVkB/pexels-natalie-bond-3759660-1.jpg"
+                className="w-full h-40 object-cover"
+                src="https://i.ibb.co/k6FTVxW/Screenshot-488.png"
                 alt="logo"
               />
         </LazyLoad>
          
-              <div className="mt-4">
+              <div className="mt-4 w-[200px] overflow-hidden">
               <h2 className="equal-word truncate w-[400px] text-gray-800">
-                  github-client:{" "}
+                  github-client:
                   <a
                     className="underline text-indigo-600"
                     target="_blank"
@@ -308,8 +266,8 @@ const Projects = () => {
                     https://github.com/jhimi01/yoga-school
                   </a>
                 </h2>
-                <h2 className="equal-word truncate w-[400px] text-gray-800">
-                  github-server:{" "}
+                <h2 className="equal-word truncate  text-gray-800">
+                  github-server:
                   <a
                     className="underline text-indigo-600 "
                     target="_blank"
@@ -318,8 +276,8 @@ const Projects = () => {
                     https://github.com/jhimi01/yoga--school-server
                   </a>
                 </h2>
-                <h3 className="equal-word truncate w-[400px] text-gray-800">
-                  live link:{" "}
+                <h3 className="equal-word truncate  text-gray-800">
+                  live link:
                   <a
                     className="underline text-indigo-600"
                     target="_blank"
@@ -336,15 +294,15 @@ const Projects = () => {
             <div className="bg-white shadow-lg rounded-sm p-4">
             <LazyLoad effect="blur">
             <img
-                className="w-20 h-20 rounded-full object-cover"
-                src="https://i.ibb.co/PcJw88t/logo-30546d5e.png"
+                className="w-full h-40 object-cover"
+                src="https://i.ibb.co/x5VWsNc/Screenshot-490.png"
                 alt="logo"
               />
         </LazyLoad>
            
-              <div className="mt-4">
-              <h2 className="equal-word truncate w-[400px] text-gray-800">
-                  github-client:{" "}
+              <div className="mt-4 w-[200px] text-center overflow-hidden">
+              <h2 className="equal-word truncate  text-gray-800">
+                  github-client:
                   <a
                     className="underline text-indigo-600"
                     target="_blank"
@@ -354,8 +312,8 @@ const Projects = () => {
                   </a>
                 </h2>
 
-                <h2 className="equal-word truncate w-[400px] text-gray-800">
-                  github-server:{" "}
+                <h2 className="equal-word truncate  text-gray-800">
+                  github-server:
                   <a
                     className="underline text-indigo-600"
                     target="_blank"
@@ -365,8 +323,8 @@ const Projects = () => {
                   </a>
                 </h2>
 
-                <h3 className="equal-word truncate w-[400px] text-gray-800">
-                  live link:{" "}
+                <h3 className="equal-word truncate  text-gray-800">
+                  live link:
                   <a
                     className="underline text-indigo-600"
                     target="_blank"
