@@ -20,6 +20,11 @@ const Projects = () => {
         </TabList>
         <hr />
 
+
+
+
+{/* ---------------------- javascript --------------------- */}
+
         <TabPanel>
           <div className="flex items-center justify-center flex-wrap mt-5 gap-4">
             <div className="bg-white shadow-lg rounded-sm p-4">
@@ -85,9 +90,13 @@ const Projects = () => {
           </div>
         </TabPanel>
 
-        {/* react js */}
+
+{/* ---------------------- react js --------------------- */}
+
         <TabPanel>
           <div className="flex items-center justify-center flex-wrap gap-5 mt-5">
+
+          {/* --------------- project one 1 */}
           <div className="bg-white shadow-lg rounded-sm p-4">
           <LazyLoad effect="blur">
           <img
@@ -119,6 +128,41 @@ const Projects = () => {
               </div>
             </div>
 
+{/* --------------- project two 2 */}
+            <div className="bg-white shadow-lg rounded-sm p-4">
+            <LazyLoad effect="blur">
+            <img
+                className="w-full h-40 object-cover"
+                src="https://i.ibb.co/7J5htB4/Screenshot-542.png"
+                alt="logo"
+              />
+        </LazyLoad>
+           
+              <div className="mt-4 w-[200px]">
+              <h2 className="equal-word truncate  text-gray-800">
+                  github:
+                  <a
+                    className="underline text-indigo-600"
+                    target="_blank"
+                    href="https://github.com/jhimi01/doctors-care"
+                  >
+                    https://github.com/jhimi01/doctors-care
+                  </a>
+                </h2>
+                <h3 className="equal-word truncate  text-gray-800">
+                  live link:
+                  <a
+                    className="underline text-indigo-600"
+                    target="_blank"
+                    href="https://doctor-care-71f28.web.app/"
+                  >
+                    https://doctor-care-71f28.web.app/
+                  </a>
+                </h3>
+              </div>
+            </div>
+
+{/* --------------- project two 2 */}
             <div className="bg-white shadow-lg rounded-sm p-4">
             <LazyLoad effect="blur">
             <img
@@ -153,9 +197,7 @@ const Projects = () => {
             </div>
 
 
-
-
-
+{/* --------------- project four 4 */}
             <div className="bg-white shadow-lg rounded-sm p-4">
             <LazyLoad effect="blur">
             <img
@@ -241,11 +283,14 @@ const Projects = () => {
 
           </div>
         </TabPanel>
+
+
+        {/* ------------ mongodb --------------------- */}
         <TabPanel>
           <div className="flex items-center justify-center flex-wrap gap-5 mt-5 ">
 
 
-
+{/* --------------- project one 1 */}
           <div className="bg-white shadow-lg rounded-sm p-4">
           <LazyLoad effect="blur">
           <img
@@ -290,7 +335,7 @@ const Projects = () => {
             </div>
 
 
-
+{/* --------------- project two 2 */}
             <div className="bg-white shadow-lg rounded-sm p-4">
             <LazyLoad effect="blur">
             <img
@@ -331,6 +376,52 @@ const Projects = () => {
                     href="https://toys-galaxy.web.app"
                   >
                     https://toys-galaxy.web.app
+                  </a>
+                </h3>
+              </div>
+            </div>
+
+{/* --------------- project three 3 */}
+            <div className="bg-white shadow-lg rounded-sm p-4">
+            <LazyLoad effect="blur">
+            <img
+                className="w-full h-40 object-cover"
+                src="https://i.ibb.co/9cn1RkQ/Screenshot-541.png"
+                alt="logo"
+              />
+        </LazyLoad>
+           
+              <div className="mt-4 w-[200px] text-center overflow-hidden">
+              <h2 className="equal-word truncate  text-gray-800">
+                  github-client:
+                  <a
+                    className="underline text-indigo-600"
+                    target="_blank"
+                    href="https://github.com/jhimi01/Colleges-service"
+                  >
+                    https://github.com/jhimi01/Colleges-service
+                  </a>
+                </h2>
+
+                <h2 className="equal-word truncate  text-gray-800">
+                  github-server:
+                  <a
+                    className="underline text-indigo-600"
+                    target="_blank"
+                    href="https://github.com/jhimi01/Colleges-service-server"
+                  >
+                    https://github.com/jhimi01/Colleges-service-server
+                  </a>
+                </h2>
+
+                <h3 className="equal-word truncate  text-gray-800">
+                  live link:
+                  <a
+                    className="underline text-indigo-600"
+                    target="_blank"
+                    href="https://college-service-a34bb.web.app/"
+                  >
+                    https://college-service-a34bb.web.app/
                   </a>
                 </h3>
               </div>
