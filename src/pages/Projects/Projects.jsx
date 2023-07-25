@@ -336,6 +336,53 @@ const Projects = () => {
 
 
 {/* --------------- project two 2 */}
+<div className="bg-white shadow-lg rounded-sm p-4">
+            <LazyLoad effect="blur">
+            <img
+                className="w-full h-40 object-cover"
+                src="https://i.ibb.co/9cn1RkQ/Screenshot-541.png"
+                alt="logo"
+              />
+        </LazyLoad>
+           
+              <div className="mt-4 w-[200px] text-center overflow-hidden">
+              <h2 className="equal-word truncate  text-gray-800">
+                  github-client:
+                  <a
+                    className="underline text-indigo-600"
+                    target="_blank"
+                    href="https://github.com/jhimi01/Colleges-service"
+                  >
+                    https://github.com/jhimi01/Colleges-service
+                  </a>
+                </h2>
+
+                <h2 className="equal-word truncate  text-gray-800">
+                  github-server:
+                  <a
+                    className="underline text-indigo-600"
+                    target="_blank"
+                    href="https://github.com/jhimi01/Colleges-service-server"
+                  >
+                    https://github.com/jhimi01/Colleges-service-server
+                  </a>
+                </h2>
+
+                <h3 className="equal-word truncate  text-gray-800">
+                  live link:
+                  <a
+                    className="underline text-indigo-600"
+                    target="_blank"
+                    href="https://college-service-a34bb.web.app/"
+                  >
+                    https://college-service-a34bb.web.app/
+                  </a>
+                </h3>
+              </div>
+            </div>
+
+
+{/* --------------- project three 3 */}
             <div className="bg-white shadow-lg rounded-sm p-4">
             <LazyLoad effect="blur">
             <img
@@ -381,51 +428,8 @@ const Projects = () => {
               </div>
             </div>
 
-{/* --------------- project three 3 */}
-            <div className="bg-white shadow-lg rounded-sm p-4">
-            <LazyLoad effect="blur">
-            <img
-                className="w-full h-40 object-cover"
-                src="https://i.ibb.co/9cn1RkQ/Screenshot-541.png"
-                alt="logo"
-              />
-        </LazyLoad>
-           
-              <div className="mt-4 w-[200px] text-center overflow-hidden">
-              <h2 className="equal-word truncate  text-gray-800">
-                  github-client:
-                  <a
-                    className="underline text-indigo-600"
-                    target="_blank"
-                    href="https://github.com/jhimi01/Colleges-service"
-                  >
-                    https://github.com/jhimi01/Colleges-service
-                  </a>
-                </h2>
 
-                <h2 className="equal-word truncate  text-gray-800">
-                  github-server:
-                  <a
-                    className="underline text-indigo-600"
-                    target="_blank"
-                    href="https://github.com/jhimi01/Colleges-service-server"
-                  >
-                    https://github.com/jhimi01/Colleges-service-server
-                  </a>
-                </h2>
-
-                <h3 className="equal-word truncate  text-gray-800">
-                  live link:
-                  <a
-                    className="underline text-indigo-600"
-                    target="_blank"
-                    href="https://college-service-a34bb.web.app/"
-                  >
-                    https://college-service-a34bb.web.app/
-                  </a>
-                </h3>
-              </div>
-            </div>
+            
           </div>
         </TabPanel>
       </Tabs>
