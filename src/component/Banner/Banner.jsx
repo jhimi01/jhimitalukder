@@ -6,7 +6,7 @@ import { Helmet } from "react-helmet";
 import LazyLoad from "react-lazy-load";
 import './Banner.css';
 import pic from '../../assets/my5.png';
-import pdf from '../../assets/Resume of Jhimi .pdf';
+import pdf from '../../assets/Resume of Jhimi.pdf';
 const Banner = () => {
 
 
