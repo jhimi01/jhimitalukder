@@ -7,65 +7,58 @@ import { GoLocation } from "react-icons/go";
 const About = () => {
   return (
     <div className="md:flex items-center justify-between mx-auto gap-5">
-     <Helmet>
-            <title>About | Jhimi</title>
-            <meta name="description" content="Nested component" />
-        </Helmet>
+      <Helmet>
+        <title>About | Jhimi</title>
+        <meta name="description" content="Nested component" />
+      </Helmet>
       <div
-       data-aos="fade-right"
-     data-aos-offset="100"
-     data-aos-easing="ease-in-sine"
-     data-aos-duration="900"
+        data-aos="fade-right"
+        data-aos-offset="100"
+        data-aos-easing="ease-in-sine"
+        data-aos-duration="900"
         className="md:w-2/3 h-full flex flex-col items-center"
         style={{ borderRight: "1px dashed #333" }}
       >
-      
         <h3 className="text-2xl font-bold mb-3">UMMAY KULSUM JHIMI</h3>
         <h5 className="text-xl mb-3 text-gray-400">Joniour developer</h5>
         <div className="text-start mt-3">
-          <div
-            style={{ borderBottom: "1px dashed #333", padding: "7px 0" }}
-          >
+          <div style={{ borderBottom: "1px dashed #333", padding: "7px 0" }}>
             <h4 className="gap-4 flex items-center text-lg font-thin">
               <FaUser className="text-indigo-400" /> Ummay Kulsum Jhimi
             </h4>
           </div>
-          <div
-            style={{ borderBottom: "1px dashed #333", padding: "7px 0" }}
-          >
+          <div style={{ borderBottom: "1px dashed #333", padding: "7px 0" }}>
             <h4 className="gap-4 flex items-center text-lg font-thin">
               <BsFillCalendar2HeartFill className="text-indigo-400" />{" "}
               15.12.2004
             </h4>
           </div>
-          <div
-            style={{ borderBottom: "1px dashed #333", padding: "7px 0" }}
-          >
+          <div style={{ borderBottom: "1px dashed #333", padding: "7px 0" }}>
             <h4 className="gap-4 flex items-center text-lg font-thin">
               <GoLocation className="text-indigo-400" /> Tangail, Bangladesh
             </h4>
           </div>
-          <div
-            style={{ borderBottom: "1px dashed #333", padding: "7px 0" }}
-          >
+          <div style={{ borderBottom: "1px dashed #333", padding: "7px 0" }}>
             <h4 className="gap-4 flex items-center text-lg font-thin">
               <AiFillPhone className="text-indigo-400" /> +8801756420414
             </h4>
           </div>
-          <div
-            style={{ borderBottom: "1px dashed #333", padding: "7px 0" }}
-          >
-            <a href="https://www.linkedin.com/in/jhimi-talukder-801ab227b" target="_blank" className="gap-4 underline flex items-center text-lg font-thin">
-              <BsLinkedin className="text-indigo-400" /> Jhimi Talukder
+          <div style={{ borderBottom: "1px dashed #333", padding: "7px 0" }}>
+            <a
+              href="https://www.linkedin.com/in/jhimi-talukder-801ab227b"
+              target="_blank"
+              className="gap-4 underline flex items-center text-lg font-thin"
+            >
+              <BsLinkedin className="text-indigo-400" />Ummay Kulsum Jhimi
             </a>
           </div>
         </div>
       </div>
       <div
-       data-aos="fade-left"
-     data-aos-offset="100"
-     data-aos-easing="ease-in-sine"
-     data-aos-duration="900"
+        data-aos="fade-left"
+        data-aos-offset="100"
+        data-aos-easing="ease-in-sine"
+        data-aos-duration="900"
         className="w-full p-4 text-start"
         style={{ borderBottom: "1px dashed #333" }}
       >
@@ -78,25 +71,30 @@ const About = () => {
           </h3>
 
           <p>
-            My name is <span className="text-indigo-400">Ummay Kulsum Jhimi</span>. I am a Front-End Web developer, and I am very
-            passionate and dedicated to my work. I have been on an
-incredible learning journey in the field of web development since January 26, 2022, and I have
-recently completed a 6-month course dedicated to honing my skill in this domain.
+            My name is{" "}
+            <span className="text-indigo-400">Ummay Kulsum Jhimi</span>. I am a
+            Front-End Web developer, and I am very passionate and dedicated to
+            my work. I have been on an incredible learning journey in the field
+            of web development since January 26, 2022, and I have recently
+            completed a 6-month course dedicated to honing my skill in this
+            domain.
           </p>
         </div>
-        <div >
+        <div>
           <h3
             className="text-3xl font-semibold pb-3"
             style={{ borderBottom: "1px dashed #333" }}
           >
             Educational <span className="text-indigo-600">Qualification</span>
           </h3>
-          <div  style={{ borderBottom: "1px dashed #333" }}>
-           <h3 className="text-lg"> Tangail Polytechnic Institute, Tangail — <span className="text-indigo-400">Expecting Degree</span></h3>
-            <span className="text-sm text-gray-500">
-               [January 2024 ] 
-            </span>
-            <span className="text-sm"> 
+          <div style={{ borderBottom: "1px dashed #333" }}>
+            <h3 className="text-lg">
+              {" "}
+              Tangail Polytechnic Institute, Tangail —{" "}
+              <span className="text-indigo-400">Expecting Degree</span>
+            </h3>
+            <span className="text-sm text-gray-500">[January 2024 ]</span>
+            <span className="text-sm">
               Passionate and innovative Diploma in Computer Science Technology
               student with a flair for combining technical expertise in web
               development with a creative mindset to deliver captivating user
@@ -104,10 +102,11 @@ recently completed a 6-month course dedicated to honing my skill in this domain.
             </span>
           </div>
           <div>
-          <h3 className="text-lg">
-          Shohid Mizanur Rahman High School, Tangail — <span className="text-indigo-400">SSC</span>
-          </h3>
-        
+            <h3 className="text-lg">
+              Shohid Mizanur Rahman High School, Tangail —{" "}
+              <span className="text-indigo-400">SSC</span>
+            </h3>
+
             <span className="text-xs text-gray-500"> [Feb 2019] </span>
             <span className="text-sm">
               I passed my Secondary School Certificate( SSC ) in 2019 from my
