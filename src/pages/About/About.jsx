@@ -49,7 +49,8 @@ const About = () => {
               target="_blank"
               className="gap-4 underline flex items-center text-lg font-thin"
             >
-              <BsLinkedin className="text-indigo-400" />Ummay Kulsum Jhimi
+              <BsLinkedin className="text-indigo-400" />
+              Ummay Kulsum Jhimi
             </a>
           </div>
         </div>
