@@ -1,131 +1,91 @@
-// import ProgressBar from "@ramonak/react-progress-bar";
+import React from "react";
+// import './SkillsSection.css';
 
-import { Helmet } from "react-helmet";
+const skills = [
+  {
+    name: "HTML",
+    level: 90,
+    description:
+      "Strong foundation in semantic HTML5 elements and accessibility best practices.",
+  },
+  {
+    name: "CSS",
+    level: 85,
+    description:
+      "Proficient in responsive design, animations, and pre-processors like SASS.",
+  },
+  {
+    name: "JavaScript",
+    level: 80,
+    description:
+      "Experienced in ES6+, DOM manipulation, and asynchronous programming.",
+  },
+  {
+    name: "React",
+    level: 75,
+    description:
+      "Skilled in component-based architecture, hooks, and state management.",
+  },
+  {
+    name: "NextJs",
+    level: 30,
+    description:
+      "Familiar with server-side rendering and static site generation. Currently exploring.",
+  },
+  {
+    name: "Node.js",
+    level: 70,
+    description:
+      "Competent in building RESTful APIs and working with Express.js.",
+  },
+  {
+    name: "Express.js",
+    level: 65,
+    description: "Knowledgeable in middleware, routing, and API integration.",
+  },
+  {
+    name: "MongoDB",
+    level: 60,
+    description:
+      "Understanding of NoSQL databases, schema design, and Mongoose.",
+  },
+];
+
+const getProgressColor = (level) => {
+  if (level > 80) return "bg-indigo-500";
+  if (level > 60) return "bg-indigo-500";
+  return "bg-indigo-500";
+};
 
 const Skill = () => {
   return (
-    <div>
-      <Helmet>
-        <title>Skill | Jhimi</title>
-        <meta name="description" content="Nested component" />
-      </Helmet>
-      <h3 className="text-3xl text-center mb-5">
-        My <span className="text-indigo-400">Skill</span>
-      </h3>
-
-      <div className="md:flex items-center justify-between gap-5">
-        <div
-          className="md:w-3/4 w-full mx-auto p-2"
-          data-aos="fade-right"
-          data-aos-offset="100"
-          data-aos-easing="ease-in-sine"
-          data-aos-duration="900"
-        >
-          <div className="my-2">
-            <h3>HTML</h3>
-            <div className="bg-gray-300 rounded-full">
-              <div
-                className="bg-indigo-400 rounded-full text-xs leading-none py-1 pl-2"
-                style={{ width: "90%" }}
-              >
-                90%
-              </div>
+    <section className="pb-20">
+      <h2 className="text-center text-[2rem] mb-5">My Skills</h2>
+      <p className="text-center text-gray-400 mb-10">
+        I am a passionate web developer committed to continuous learning and
+        growth. I stay up-to-date with industry trends and strive to enhance my
+        expertise to build innovative and effective web solutions.
+      </p>
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+        {skills.map((skill, index) => (
+          <div className="skill p-3  shadow rounded" key={index}>
+            <div className="skill-info flex justify-between items-center mb-2">
+              <span className="font-semibold">{skill.name}</span>
+              <span>{skill.level}%</span>
             </div>
-          </div>
-
-          <div className="my-2">
-            <h3>CSS</h3>
-            <div className="bg-gray-300 rounded-full">
+            <div className="progress-bar bg-gray-300 rounded-full h-2">
               <div
-                className="bg-indigo-400 rounded-full text-xs leading-none py-1 pl-2"
-                style={{ width: "90%" }}
-              >
-                90%
-              </div>
+                className={`progress h-2 rounded-full ${getProgressColor(
+                  skill.level
+                )}`}
+                style={{ width: `${skill.level}%` }}
+              ></div>
             </div>
+            <p className="text-sm mt-1 text-gray-600">{skill.description}</p>
           </div>
-          <div className="my-2">
-            <h3>JavaScript</h3>
-            <div className="bg-gray-300 rounded-full">
-              <div
-                className="bg-indigo-400 rounded-full text-xs leading-none py-1 pl-2"
-                style={{ width: "80%" }}
-              >
-                80%
-              </div>
-            </div>
-          </div>
-          <div className="my-2">
-            <h3>React JS</h3>
-            <div className="bg-gray-300 rounded-full">
-              <div
-                className="bg-indigo-400 rounded-full text-xs leading-none py-1 pl-2"
-                style={{ width: "80%" }}
-              >
-                85%
-              </div>
-            </div>
-          </div>
-          <div className="my-2">
-            <h3>Node JS</h3>
-            <div className="bg-gray-300 rounded-full">
-              <div
-                className="bg-indigo-400 rounded-full text-xs leading-none py-1 pl-2"
-                style={{ width: "15%" }}
-              >
-                15%
-              </div>
-            </div>
-          </div>
-
-          <div className="my-2">
-            <h3>Express JS</h3>
-            <div className="bg-gray-300 rounded-full">
-              <div
-                className="bg-indigo-400 rounded-full text-xs leading-none py-1 pl-2"
-                style={{ width: "20%" }}
-              >
-                20%
-              </div>
-            </div>
-          </div>
-
-          <div className="my-2">
-            <h3>Mongodb</h3>
-            <div className="bg-gray-300 rounded-full">
-              <div
-                className="bg-indigo-400 rounded-full text-xs leading-none py-1 pl-2"
-                style={{ width: "20%" }}
-              >
-                20%
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div
-          className="w-full"
-          data-aos="fade-left"
-          data-aos-offset="100"
-          data-aos-easing="ease-in-sine"
-          data-aos-duration="900"
-        >
-          <h3 className="text-lg font-thin">
-            Introducing Ummay Kulsum Jhimi, a skilled and ambitious developer
-            with expertise in HTML (90%), CSS (90%), and JavaScript (80%).
-            Passionate about creating visually stunning and user-friendly web
-            experiences, I am dedicated to crafting clean and efficient code.
-            While their proficiency in Node.js (20%) and Express.js (20%) is
-            still growing, their enthusiasm and eagerness to learn are
-            unmatched. Continuously staying up-to-date with industry trends, I
-            thrives in collaborative environments, seeking to contribute to
-            dynamic development projects. With a strong foundation in core web
-            technologies, I am well-equipped to tackle challenges and bring
-            innovative ideas to life, creating remarkable digital experiences.
-          </h3>
-        </div>
+        ))}
       </div>
-    </div>
+    </section>
   );
 };
 

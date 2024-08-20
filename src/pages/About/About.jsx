@@ -76,9 +76,9 @@ const About = () => {
             <span className="text-indigo-400">Ummay Kulsum Jhimi</span>. I am a
             Front-End Web developer, and I am very passionate and dedicated to
             my work. I have been on an incredible learning journey in the field
-            of web development since January 26, 2022, and I have recently
-            completed a 6-month course dedicated to honing my skill in this
-            domain.
+            of web development since January 26, 2022, and I have completed a
+            6-month course. I have also worked with some teams and on solo
+            projects for clients.
           </p>
         </div>
         <div>
@@ -92,7 +92,7 @@ const About = () => {
             <h3 className="text-lg">
               {" "}
               Tangail Polytechnic Institute, Tangail —{" "}
-              <span className="text-indigo-400">Expecting Degree</span>
+              <span className="text-indigo-400">Completed Degree</span>
             </h3>
             <span className="text-sm text-gray-500">[January 2024 ]</span>
             <span className="text-sm">
