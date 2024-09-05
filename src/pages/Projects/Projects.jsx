@@ -109,8 +109,8 @@ const Projects = () => {
             />
             <ProjectCard
               imageSrc="https://i.ibb.co/V307Z8N/Screenshot-201.png"
-              githubLink="https://github.com/jhimi01/blog-next-js"
-              liveLink="https://blog-next-js-pi-one.vercel.app/"
+              githubLink="https://github.com/jhimi01/nextjs-blog"
+              liveLink="https://nextjs-blog-omega-gilt.vercel.app/"
             />
           </div>
         </TabPanel>
