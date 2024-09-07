@@ -39,6 +39,11 @@ const Projects = () => {
               liveLink="https://jhimi01.github.io/collageAssignment.github.io/"
             />
             <ProjectCard
+              imageSrc="/public/banner.png"
+              githubLink="https://github.com/jhimi01/tour-travel"
+              liveLink="https://jhimi01.github.io/tour-travel/"
+            />
+            <ProjectCard
               imageSrc="https://i.ibb.co/YBT1VrP/Screenshot-483.png"
               githubLink="https://github.com/jhimi01/Blog.github.io"
               liveLink="https://jhimi01.github.io/Blog.github.io/"
