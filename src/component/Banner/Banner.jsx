@@ -6,6 +6,7 @@ import { Helmet } from "react-helmet";
 import LazyLoad from "react-lazy-load";
 import "./Banner.css";
 import pic from "../../assets/my5.png";
+import pic3 from "../../../public/pic3.png";
 import pdf from "../../assets/Resume of Jhimi.pdf";
 const Banner = () => {
   const hnadleDownload = () => {
@@ -23,23 +24,20 @@ const Banner = () => {
   };
 
   return (
-    <div className="md:flex items-center justify-between mt-10">
+    <div className="md:flex items-center justify-between mt-10 md:overflow-x-none ">
       <Helmet>
         <title>Jhimi</title>
         <meta name="description" content="Nested component" />
       </Helmet>
       <div
-        className="w-full md:w-[70%] h-full"
+        className="w-full md:w-[70%] h-full "
         data-aos="fade-right"
         //  data-aos-offset="300"
         data-aos-easing="linear"
         data-aos-duration="700"
       >
         <LazyLoad effect="blur">
-          <img
-            className="w-[100%] h-[400px] object-cover hover:grayscale"
-            src={pic}
-          />
+          <img className="w-[100%] h-[400px] object-cover" src={pic} />
         </LazyLoad>
       </div>
       <div

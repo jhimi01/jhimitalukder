@@ -6,135 +6,130 @@ import { NavLink } from "react-router-dom";
 
 const Sidebar = () => {
   return (
-   <>
-     <div className="text-3xl md:absolute hidden md:block   md:top-36 left-10">
-      <div className=" p-2 group">
-        <NavLink  to="/" className={( {isActive} ) => isActive? "text-indigo-500  shadow-lg shadow-indigo-500/50": " "
-          }
-        >
-          <AiFillHome className="cursor-pointer border-indigo-500 border rounded-full p-1"/> <span className="hidden">home</span>
-        </NavLink>
-           
+    <>
+      <div className="text-3xl md:absolute hidden md:block   md:top-36 left-10">
+        <div className=" p-2 group">
+          <NavLink
+            to="/"
+            className={({ isActive }) =>
+              isActive ? "text-indigo-500  shadow-lg shadow-indigo-500/50" : " "
+            }
+          >
+            <AiFillHome className="cursor-pointer border-indigo-500 border rounded-full p-1" />{" "}
+            <span className="hidden">home</span>
+          </NavLink>
+        </div>
+
+        <div className=" p-2">
+          <NavLink
+            to="/about"
+            className={({ isActive }) =>
+              isActive ? "text-indigo-500 shadow-lg shadow-indigo-500/50" : " "
+            }
+          >
+            <FaUserAlt className="cursor-pointer border-indigo-500 border rounded-full p-1" />
+          </NavLink>
+        </div>
+
+        <div className=" p-2">
+          <NavLink
+            to="/skill"
+            className={({ isActive }) =>
+              isActive ? "text-indigo-500 shadow-lg shadow-indigo-500/50" : ""
+            }
+          >
+            <FaTools className="cursor-pointer border-indigo-500 border rounded-full p-1" />
+          </NavLink>
+        </div>
+
+        <div className=" p-2">
+          <NavLink
+            to="/project"
+            className={({ isActive }) =>
+              isActive ? "text-indigo-500 shadow-lg shadow-indigo-500/50" : ""
+            }
+          >
+            <HiDocumentDuplicate className="cursor-pointer border-indigo-500 border rounded-full p-1" />
+          </NavLink>
+        </div>
+
+        <div className=" p-2">
+          <NavLink
+            to="/contact"
+            className={({ isActive }) =>
+              isActive ? "text-indigo-500 shadow-lg shadow-indigo-500/50" : ""
+            }
+          >
+            <AiFillPhone className="cursor-pointer border-indigo-500 border rounded-full p-1" />
+          </NavLink>
+        </div>
       </div>
 
-      <div className=" p-2">
-        <NavLink
-          to="/about"
-          className={({ isActive }) =>
-            isActive
-              ? "text-indigo-500 shadow-lg shadow-indigo-500/50"
-              : " "
-          }
-        >
-          <FaUserAlt className="cursor-pointer border-indigo-500 border rounded-full p-1" />
-        </NavLink>
+      {/* small screen */}
+      <div className="md:hidden ">
+        <div className="text-3xl flex absolute top-20 left-">
+          <div className=" p-2 group">
+            <NavLink
+              to="/"
+              className={({ isActive }) =>
+                isActive
+                  ? "text-indigo-500  shadow-lg shadow-indigo-500/50"
+                  : " "
+              }
+            >
+              <AiFillHome className="cursor-pointer border-indigo-500 border rounded-full p-1" />{" "}
+              <span className="hidden">home</span>
+            </NavLink>
+          </div>
+
+          <div className=" p-2">
+            <NavLink
+              to="/about"
+              className={({ isActive }) =>
+                isActive
+                  ? "text-indigo-500 shadow-lg shadow-indigo-500/50"
+                  : " "
+              }
+            >
+              <FaUserAlt className="cursor-pointer border-indigo-500 border rounded-full p-1" />
+            </NavLink>
+          </div>
+
+          <div className=" p-2">
+            <NavLink
+              to="/skill"
+              className={({ isActive }) =>
+                isActive ? "text-indigo-500 shadow-lg shadow-indigo-500/50" : ""
+              }
+            >
+              <FaTools className="cursor-pointer border-indigo-500 border rounded-full p-1" />
+            </NavLink>
+          </div>
+
+          <div className=" p-2">
+            <NavLink
+              to="/project"
+              className={({ isActive }) =>
+                isActive ? "text-indigo-500 shadow-lg shadow-indigo-500/50" : ""
+              }
+            >
+              <HiDocumentDuplicate className="cursor-pointer border-indigo-500 border rounded-full p-1" />
+            </NavLink>
+          </div>
+
+          <div className=" p-2">
+            <NavLink
+              to="/contact"
+              className={({ isActive }) =>
+                isActive ? "text-indigo-500 shadow-lg shadow-indigo-500/50" : ""
+              }
+            >
+              <AiFillPhone className="cursor-pointer border-indigo-500 border rounded-full p-1" />
+            </NavLink>
+          </div>
+        </div>
       </div>
-
-      <div className=" p-2">
-        <NavLink
-          to="/skill"
-          className={({ isActive }) =>
-            isActive
-              ? "text-indigo-500 shadow-lg shadow-indigo-500/50"
-              : ""
-          }
-        >
-         <FaTools className="cursor-pointer border-indigo-500 border rounded-full p-1" />
-        </NavLink>
-      </div>
-
-      <div className=" p-2">
-        <NavLink
-          to="/project"
-          className={({ isActive }) =>
-            isActive
-              ? "text-indigo-500 shadow-lg shadow-indigo-500/50"
-              : ""
-          }
-        >
-         <HiDocumentDuplicate className="cursor-pointer border-indigo-500 border rounded-full p-1" />
-        </NavLink>
-      </div>
-
-      <div className=" p-2">
-      <NavLink
-  to="/contact"
-  className={({ isActive }) =>
-    isActive ? "text-indigo-500 shadow-lg shadow-indigo-500/50" : ""
-  }
->
-  <AiFillPhone className="cursor-pointer border-indigo-500 border rounded-full p-1" />
-</NavLink>
-
-      </div>
-    </div>
-
-
-    {/* small screen */}
-    <div className="md:hidden ">
-    <div className="text-3xl flex absolute top-20 left-">
-      <div className=" p-2 group">
-        <NavLink  to="/" className={( {isActive} ) => isActive? "text-indigo-500  shadow-lg shadow-indigo-500/50": " "
-          }
-        >
-          <AiFillHome className="cursor-pointer border-indigo-500 border rounded-full p-1"/> <span className="hidden">home</span>
-        </NavLink>
-           
-      </div>
-
-      <div className=" p-2">
-        <NavLink
-          to="/about"
-          className={({ isActive }) =>
-            isActive
-              ? "text-indigo-500 shadow-lg shadow-indigo-500/50"
-              : " "
-          }
-        >
-          <FaUserAlt className="cursor-pointer border-indigo-500 border rounded-full p-1" />
-        </NavLink>
-      </div>
-
-      <div className=" p-2">
-        <NavLink
-          to="/skill"
-          className={({ isActive }) =>
-            isActive
-              ? "text-indigo-500 shadow-lg shadow-indigo-500/50"
-              : ""
-          }
-        >
-         <FaTools className="cursor-pointer border-indigo-500 border rounded-full p-1" />
-        </NavLink>
-      </div>
-
-      <div className=" p-2">
-        <NavLink
-          to="/project"
-          className={({ isActive }) =>
-            isActive
-              ? "text-indigo-500 shadow-lg shadow-indigo-500/50"
-              : ""
-          }
-        >
-         <HiDocumentDuplicate className="cursor-pointer border-indigo-500 border rounded-full p-1" />
-        </NavLink>
-      </div>
-
-      <div className=" p-2">
-      <NavLink
-  to="/contact"
-  className={({ isActive }) =>
-    isActive ? "text-indigo-500 shadow-lg shadow-indigo-500/50" : ""
-  }
->
-  <AiFillPhone className="cursor-pointer border-indigo-500 border rounded-full p-1" />
-</NavLink>
-
-      </div>
-    </div>
-    </div>
-   </>
+    </>
   );
 };
 

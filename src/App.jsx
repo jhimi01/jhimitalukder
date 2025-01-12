@@ -10,22 +10,27 @@ import bggradient from "./assets/bg.png";
 function App() {
   return (
     <>
-      <div className="w-full mx-auto h-full">
-
-<Navigation />
-<div className="absolute right-20 bottom-28">
-<Icons></Icons>
-</div>
-<div className="md:w-4/6 mx-auto mt-10">
-<Outlet></Outlet>
-</div>
-<div>
-  <Sidebar></Sidebar>
-</div>
-
-</div>
-<Footer></Footer>
-<img className="absolute -z-20 bottom-20 opacity-30 -left-20" src={bggradient} alt="" />
+      <div className="">
+      {/* <div id="stars"></div>
+      <div id="stars2"></div>
+      <div id="stars3"></div> */}
+        <Navigation />
+        <div className="absolute right-20 bottom-28">
+          <Icons></Icons>
+        </div>
+        <div className="md:w-4/6 mx-auto mt-10">
+          <Outlet></Outlet>
+        </div>
+        <div>
+          <Sidebar></Sidebar>
+        </div>
+      </div>
+      <Footer></Footer>
+      <img
+        className="absolute -z-20 bottom-20 opacity-30 -left-20"
+        src={bggradient}
+        alt=""
+      />
     </>
   );
 }
