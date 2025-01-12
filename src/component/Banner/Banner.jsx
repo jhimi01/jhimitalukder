@@ -5,8 +5,13 @@ import { TypeAnimation } from "react-type-animation";
 import { Helmet } from "react-helmet";
 import LazyLoad from "react-lazy-load";
 import "./Banner.css";
-import pic from "../../assets/my5.png";
 import pic3 from "../../../public/pic3.png";
+import gradu from "../../../public/gradu.png";
+import light from "../../../public/light.png";
+import splash from "../../../public/splash.png";
+import arrow from "../../../public/arrow.png";
+import ides from "../../../public/ides.png";
+import curve from "../../../public/curve2.svg";
 import pdf from "../../assets/Resume of Jhimi.pdf";
 const Banner = () => {
   const hnadleDownload = () => {
@@ -24,21 +29,50 @@ const Banner = () => {
   };
 
   return (
-    <div className="md:flex items-center justify-between mt-10 md:overflow-x-none ">
+    <div className="md:flex items-center justify-between mt-10 ">
       <Helmet>
         <title>Jhimi</title>
         <meta name="description" content="Nested component" />
       </Helmet>
       <div
-        className="w-full md:w-[70%] h-full "
+        className="w-full h-full relative"
         data-aos="fade-right"
         //  data-aos-offset="300"
         data-aos-easing="linear"
         data-aos-duration="700"
       >
-        <LazyLoad effect="blur">
-          <img className="w-[100%] h-[400px] object-cover" src={pic} />
-        </LazyLoad>
+        <div className="absolute hidden lg:block bottom-10 left-3 animatespin ">
+          <img src={gradu} className="w-28 h-28" alt="brain" />
+        </div>
+        <div className="absolute hidden lg:block bottom-40 -rotate-90 -left-16">
+          <img src={arrow} className="w-48 h-48" alt="brain" />
+        </div>
+        <div className="absolute hidden lg:block top-5 z-40 animate-pulse right-20">
+          <img src={light} className="w-28 h-28" alt="brain" />
+        </div>
+        <div className="absolute hidden lg:block bottom-20 right-10 animate-updown">
+          <img src={splash} className="w-28 h-28" alt="brain" />
+        </div>
+        <div className="absolute hidden lg:block right-20 top-5 -z-10">
+          <div className="w-24 h-24 blur-2xl bg-yellow-500 rounded-full opacity-80 animate-pulse duration-700"></div>
+        </div>
+        <div className="absolute hidden lg:block left-12 -top-14 animate-pulse">
+          <img src={ides} className="w-28 h-28" alt="" />
+        </div>
+        <div className="relative">
+          <LazyLoad effect="blur">
+            <img
+              className="h-[400px] object-cover"
+              src={pic3}
+              alt="Background"
+            />
+          </LazyLoad>
+          <img
+            src={curve}
+            className="absolute opacity-80 top-0 -z-10 left-0 w-full h-full object-cover pointer-events-none"
+            alt="Curve"
+          />
+        </div>
       </div>
       <div
         className="md:text-right text-center w-full mx-auto font-thin"
