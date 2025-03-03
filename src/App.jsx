@@ -11,14 +11,11 @@ function App() {
   return (
     <>
       <div className="">
-      {/* <div id="stars"></div>
-      <div id="stars2"></div>
-      <div id="stars3"></div> */}
         <Navigation />
         <div className="absolute right-20 bottom-28">
           <Icons></Icons>
         </div>
-        <div className="md:w-4/6 mx-auto mt-10">
+        <div className="md:w-[80%] mx-2 md:mx-auto mt-10">
           <Outlet></Outlet>
         </div>
         <div>

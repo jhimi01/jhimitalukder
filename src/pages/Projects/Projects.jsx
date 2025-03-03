@@ -125,12 +125,31 @@ const Projects = () => {
               serverLink="https://github.com/jhimi01/doll-galaxy-server"
               liveLink="https://doll-galaxy.vercel.app/"
             />
+            <ProjectCard
+              projectname={"Task and Profile Management"}
+              imageSrc="/public/task&profile.png"
+              githubLink="https://github.com/jhimi01/task-management-client"
+              serverLink="https://github.com/jhimi01/task-management-server"
+              liveLink="https://task-management-client-chi-nine.vercel.app/"
+            />
           </div>
         </TabPanel>
 
         {/* next js */}
         <TabPanel>
           <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-2 my-5">
+            <ProjectCard
+              projectname={"chroniclecloud-blog"}
+              imageSrc="/public/chroniclecloud-blog.png"
+              githubLink="https://github.com/jhimi01/chroniclecloud-blog"
+              liveLink="https://drive.google.com/file/d/1IrbhAaWr-8iTUSnbGjsOXafhMpb0l59Y/view?usp=sharing"
+            />
+             <ProjectCard
+              projectname={"BookList"}
+              imageSrc="/public/booklist.png"
+              githubLink="https://github.com/jhimi01/Books-list-task-nextjs"
+              liveLink="https://books-list-nextjs-mongodb.vercel.app/"
+            />
             <ProjectCard
               projectname={"Maximo-shop"}
               imageSrc="https://i.ibb.co/ygfBrSj/Screenshot-200.png"

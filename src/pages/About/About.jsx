@@ -1,5 +1,5 @@
 import { Helmet } from "react-helmet";
-import { AiFillPhone } from "react-icons/ai";
+import { IoLogoWhatsapp } from "react-icons/io";
 import { BsFillCalendar2HeartFill, BsLinkedin } from "react-icons/bs";
 import { FaUser } from "react-icons/fa";
 import { GoLocation } from "react-icons/go";
@@ -20,7 +20,7 @@ const About = () => {
         style={{ borderRight: "1px dashed #333" }}
       >
         <h3 className="text-2xl font-bold mb-3">UMMAY KULSUM JHIMI</h3>
-        <h5 className="text-xl mb-3 text-gray-400">Joniour developer</h5>
+        <h5 className="text-xl mb-3 text-gray-400">Web developer</h5>
         <div className="text-start mt-3">
           <div style={{ borderBottom: "1px dashed #333", padding: "7px 0" }}>
             <h4 className="gap-4 flex items-center text-lg font-thin">
@@ -40,7 +40,7 @@ const About = () => {
           </div>
           <div style={{ borderBottom: "1px dashed #333", padding: "7px 0" }}>
             <h4 className="gap-4 flex items-center text-lg font-thin">
-              <AiFillPhone className="text-indigo-400" /> +8801756420414
+              <IoLogoWhatsapp className="text-indigo-400" /> +8801756420414
             </h4>
           </div>
           <div style={{ borderBottom: "1px dashed #333", padding: "7px 0" }}>

@@ -90,3 +90,51 @@ const Skill = () => {
 };
 
 export default Skill;
+
+
+
+// import React from "react";
+
+// const skills = {
+//   "Frontend": ["HTML", "CSS", "JavaScript", "React", "Next.js", "Zustand", "Tailwind CSS"],
+//   "Backend": ["Node", "Express", "REST API", "Zod Validation", "JWT/OAuth", "SQL", "Postgres", "Prisma ORM", "DB Modeling", "Stripe Payments"],
+//   "Other": ["JavaScript", "TypeScript", "Python", "Go", "React Native", "Git", "GitHub", "Linux", "WordPress", "VPS", "Vercel", "UX/UI Design", "Product Design", "Figma", "Adobe XD", "Wireframe"]
+// };
+
+// const Skill = () => {
+//   return (
+//     <section className="text-white min-h-screen flex flex-col items-center justify-center p-10 relative">
+//        {/* Title */}
+//     <h2 className="text-3xl font-bold mb-10 bg-indigo-600 px-4 py-2 rounded-lg">MY SKILLS</h2>
+//     {/* SVG Lines */}
+//     <svg className="absolute w-full h-full top-0 left-0 pointer-events-none">
+//       <line x1="50%" y1="100px" x2="30%" y2="200px" stroke="gray" strokeWidth="2"/>
+//       <line x1="50%" y1="100px" x2="50%" y2="200px" stroke="gray" strokeWidth="2"/>
+//       <line x1="50%" y1="100px" x2="70%" y2="200px" stroke="gray" strokeWidth="2"/>
+//     </svg>
+
+   
+
+//     {/* Skill Categories */}
+//     <div className="flex justify-center gap-10 max-w-5xl relative">
+//       {Object.entries(skills).map(([category, skillList], index) => (
+//         <div key={index} className="text-center flex flex-col items-center">
+//           <h3 className="text-xl font-semibold mb-4 bg-gray-700 px-4 py-2 rounded-lg">{category}</h3>
+//           <div className="flex flex-wrap gap-3 justify-center">
+//             {skillList.map((skill, i) => (
+//               <span
+//                 key={i}
+//                 className="px-4 py-2 bg-gray-800 border border-indigo-500 rounded-lg text-sm hover:bg-indigo-500 transition"
+//               >
+//                 {skill}
+//               </span>
+//             ))}
+//           </div>
+//         </div>
+//       ))}
+//     </div>
+//   </section>
+//   );
+// };
+
+// export default Skill;
