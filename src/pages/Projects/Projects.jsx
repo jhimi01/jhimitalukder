@@ -5,7 +5,10 @@ import { Helmet } from "react-helmet";
 import ProjectCard from "./ProjectCard";
 import fb from "../../../public/fb.png";
 import yoga from "../../../public/doyoga.png";
-
+import banner from "../../../public/banner.png";
+import taskprofile from "../../../public/task&profile.png";
+import chroniclecloud from "../../../public/chroniclecloud-blog.png";
+import booklist from "../../../public/booklist.png";
 const Projects = () => {
   return (
     <div>
@@ -45,7 +48,7 @@ const Projects = () => {
             />
             <ProjectCard
               projectname={"Tour-travel"}
-              imageSrc="/public/banner.png"
+              imageSrc={banner}
               githubLink="https://github.com/jhimi01/tour-travel"
               liveLink="https://jhimi01.github.io/tour-travel/"
             />
@@ -127,7 +130,7 @@ const Projects = () => {
             />
             <ProjectCard
               projectname={"Task and Profile Management"}
-              imageSrc="/public/task&profile.png"
+              imageSrc={taskprofile}
               githubLink="https://github.com/jhimi01/task-management-client"
               serverLink="https://github.com/jhimi01/task-management-server"
               liveLink="https://task-management-client-chi-nine.vercel.app/"
@@ -140,13 +143,13 @@ const Projects = () => {
           <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-2 my-5">
             <ProjectCard
               projectname={"chroniclecloud-blog"}
-              imageSrc="/public/chroniclecloud-blog.png"
+              imageSrc={chroniclecloud}
               githubLink="https://github.com/jhimi01/chroniclecloud-blog"
               liveLink="https://drive.google.com/file/d/1IrbhAaWr-8iTUSnbGjsOXafhMpb0l59Y/view?usp=sharing"
             />
              <ProjectCard
               projectname={"BookList"}
-              imageSrc="/public/booklist.png"
+              imageSrc={booklist}
               githubLink="https://github.com/jhimi01/Books-list-task-nextjs"
               liveLink="https://books-list-nextjs-mongodb.vercel.app/"
             />
