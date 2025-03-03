@@ -1,10 +1,8 @@
 import { Outlet } from "react-router-dom";
 import "./App.css";
-import Footer from "./component/Footer/Footer";
 import Icons from "./component/Icons/Icons";
 import Navigation from "./component/Navigation/Navigation";
 import Sidebar from "./component/Sidebar/Sidebar";
-// import Slider from "./component/Slider";
 import bggradient from "./assets/bg.png";
 
 function App() {
@@ -12,21 +10,20 @@ function App() {
     <>
       <div className="">
         <Navigation />
-        <div className="absolute right-20 bottom-28">
+        <div className="fixed right-20 bottom-28">
           <Icons></Icons>
         </div>
-        <div className="md:w-[80%] mx-2 md:mx-auto mt-10">
-          <Outlet></Outlet>
-        </div>
-        <div>
+        <div className="">
           <Sidebar></Sidebar>
         </div>
+        <div className="md:w-[80%] mx-2 md:mx-auto mt-5 md:mt-10">
+          <Outlet></Outlet>
+        </div>
       </div>
-      <Footer></Footer>
       <img
         className="absolute -z-20 bottom-20 opacity-30 -left-20"
         src={bggradient}
-        alt=""
+        alt="gradient"
       />
     </>
   );

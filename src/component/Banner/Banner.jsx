@@ -12,7 +12,7 @@ import splash from "../../../public/splash.png";
 import arrow from "../../../public/arrow.png";
 import ides from "../../../public/ides.png";
 import curve from "../../../public/curve2.svg";
-import pdf from "../../assets/Resume of Jhimi.pdf";
+import pdf from "../../assets/JhimiFrontendDeveloper.pdf";
 const Banner = () => {
   const hnadleDownload = () => {
     fetch(pdf).then((response) => {
@@ -110,7 +110,7 @@ const Banner = () => {
         <button>
           <a
             target="_blank"
-            href="https://drive.google.com/file/d/1v7_ZxnGy9F-J2C0_yTwrNmpmYJlUaZLM/view?usp=sharing"
+            href="https://drive.google.com/file/d/1M94SsQX2ynX2tBL_y2Clwn5km8lgmOED/view?usp=sharing"
             className="text-xl flex items-center p-2 gap-1 font-semibold text-indigo-500 shadow-lg shadow-indigo-500/50"
           >
             Resume <FiArrowUpRight />

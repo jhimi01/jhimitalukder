@@ -7,7 +7,7 @@ import { NavLink } from "react-router-dom";
 const Sidebar = () => {
   return (
     <>
-      <div className="text-3xl md:absolute hidden md:block   md:top-36 left-10">
+      <div className="text-3xl md:fixed md:block hidden md:top-36 left-10">
         <div className=" p-2 group">
           <NavLink
             to="/"
@@ -66,9 +66,9 @@ const Sidebar = () => {
       </div>
 
       {/* small screen */}
-      <div className="md:hidden ">
-        <div className="text-3xl flex absolute top-20 left-">
-          <div className=" p-2 group">
+      <div className="md:hidden">
+        <div className="text-3xl flex items-center justify-center">
+          <div className="p-2 group">
             <NavLink
               to="/"
               className={({ isActive }) =>
@@ -77,7 +77,7 @@ const Sidebar = () => {
                   : " "
               }
             >
-              <AiFillHome className="cursor-pointer border-indigo-500 border rounded-full p-1" />{" "}
+              <AiFillHome className="cursor-pointer border-indigo-500 border rounded-full p-1" />
               <span className="hidden">home</span>
             </NavLink>
           </div>
